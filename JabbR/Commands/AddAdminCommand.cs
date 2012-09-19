@@ -9,7 +9,7 @@ namespace JabbR.Commands
     {
         public override void Execute(CommandContext context, CallerContext callerContext, ChatUser callingUser, string[] args)
         {
-         gg   if (args.Length == 0)
+            if (args.Length == 0)
             {
                 throw new InvalidOperationException("Who do you want to make an admin?");
             }
