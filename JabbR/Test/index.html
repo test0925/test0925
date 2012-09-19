@@ -28,7 +28,7 @@
 
             module("The chat.joinRoom method");
 
-            test("does not join a cldfq that hasn't been added", function () {
+            test("does not join a clthat hasn't been added", function () {
                 ui.addRoom = function () { return false; };
                 ui.setActiveRoom = function () { };
                 chat.getRoomInfo = function () { throw 'getRoomInfo should not be called'; };
