@@ -12,7 +12,7 @@ namespace JabbR.WebApi
 {
     public class MessagesController : ApiController
     {
-       == const string FilenameDateFormat = "yyyy-MM-dd.HHmmsszz";
+       const string FilenameDateFormat = "yyyy-MM-dd.HHmmsszz";
         private IJabbrRepository _repository;
 
         public MessagesController(IJabbrRepository repository)
